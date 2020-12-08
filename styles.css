@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  border: 3px solid gray;
+  padding: 3em 2em;
+}
+
+.form-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+input {
+  margin-top: 1em;
+  padding: .5em;
+}
+
+#button {
+  width: 100%;
+  padding: .5em;
+  margin-top: 1em;
+  background-color: #eb98e4;
+  color: white;
+  font-weight: bold;
+}
+
+#button:hover {
+  cursor: pointer;
+  background-color: #b874b4;
+}
+
+.new-task {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid black;
+  margin: .5em;
+  padding-bottom: .25em;
+  width: 100%;
+}
+
+#delete {
+  background-color: red;
+  color: white;
+}
